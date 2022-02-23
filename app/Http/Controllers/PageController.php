@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    //
     public function index() {
         echo "<h1>Selamat Datang</h1>";
     }
