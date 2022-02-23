@@ -3,6 +3,10 @@
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\NewsController;
+use App\Http\Controllers\ProgramController;
+use App\Http\Controllers\ContactController;
 // use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -39,5 +43,23 @@ use Illuminate\Support\Facades\Route;
 
 // PRAKTIKUM 3
 Route::get('/', [HomeController::class, 'index']);
+
+Route::prefix('category')->group(function () {
+    Route::get('/{title}', [ProductController::class, 'view']);
+});
+
+Route::get('/news', [NewsController::class, 'index']);
+Route::get('/news/{title}', [NewsController::class, 'view']);
+
+Route::prefix('program')->group(function () {
+    Route::get('/{title}', [ProgramController::class, 'view']);
+});
+
 Route::get('/about', [AboutController::class, 'index']);
-Route::get('/articles/{id}', [ArticleController::class, 'index']);
+
+Route::prefix('contact-us')->group(function () {
+    Route::resource('/', ContactController::class)->only([
+        'index', 'create'
+        ]);
+    Route::get('/{name}/{email}/{msg}', [ContactController::class, 'store'])->name('post-contact');
+});
