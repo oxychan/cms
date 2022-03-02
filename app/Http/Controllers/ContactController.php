@@ -13,9 +13,10 @@ class ContactController extends Controller
      */
     public function index()
     {
-        echo "<h1>Educastudio</h1>";
-        echo "<h1>cs@educastudio.com</h1>";
-        echo "<h1>(+62) 298 6031005</h1>";
+        // echo "<h1>Educastudio</h1>";
+        // echo "<h1>cs@educastudio.com</h1>";
+        // echo "<h1>(+62) 298 6031005</h1>";
+        return view('contact', ["title" => "Contact Us"]);
     }
 
     /**

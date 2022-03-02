@@ -6,8 +6,25 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function index() 
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    // public function __construct()
+    // {
+    //     $this->middleware('auth');
+    // }
+
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function index()
     {
-        echo "<h1>Selamat Datang di Website Educastudio</h1>";
+        return view('index', [
+            "title" => "Home"
+        ]);
     }
 }
