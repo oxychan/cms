@@ -100,3 +100,5 @@ Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 
 Route::get('/single', [SingleController::class, 'index'])->name('single');
 
+Route::get('/single/{slug}', [SingleController::class, 'slug'])->name('single.slug');
+
