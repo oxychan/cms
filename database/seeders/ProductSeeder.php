@@ -24,7 +24,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 1,
                     'new' => 1,
-                    'url_gambar' => '3.jpg',
+                    'url_gambar' => 'e3.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ],
                 [
@@ -34,7 +34,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 1,
                     'new' => 0,
-                    'url_gambar' => '4.jpg',
+                    'url_gambar' => 'e4.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ],
                 [
@@ -44,7 +44,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 0,
                     'new' => 0,
-                    'url_gambar' => '5.jpg',
+                    'url_gambar' => 'e5.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ],
                 [
@@ -54,7 +54,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 1,
                     'new' => 1,
-                    'url_gambar' => '6.jpg',
+                    'url_gambar' => 'e6.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ],
                 [
@@ -64,7 +64,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 0,
                     'new' => 1,
-                    'url_gambar' => '7.jpg',
+                    'url_gambar' => 'e7.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ],
                 [
@@ -74,7 +74,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 1,
                     'new' => 1,
-                    'url_gambar' => '8.jpg',
+                    'url_gambar' => 'e8.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ],
                 [
@@ -84,7 +84,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 1,
                     'new' => 1,
-                    'url_gambar' => '9.jpg',
+                    'url_gambar' => 'e9.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ],
                 [
@@ -94,7 +94,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 1,
                     'new' => 1,
-                    'url_gambar' => '7.jpg',
+                    'url_gambar' => 'e7.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ],
                 [
@@ -104,7 +104,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 1,
                     'new' => 1,
-                    'url_gambar' => '5.jpg',
+                    'url_gambar' => 'e5.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ],
                 [
@@ -114,7 +114,7 @@ class ProductSeeder extends Seeder
                     'deskripsi' => 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. A explicabo dolorem eum doloremque pariatur? Saepe, quasi ducimus debitis neque ullam vel inventore necessitatibus asperiores laborum. Alias, tempora. Quod iure nemo blanditiis dicta fuga nam nobis aliquam tenetur neque, fugit voluptates non, ducimus illum assumenda totam earum atque culpa maxime dolore veritatis dolores rerum. Explicabo reprehenderit doloribus distinctio deserunt alias earum quas nam ullam possimus. Consequatur natus minima nisi fugiat cupiditate excepturi delectus vitae, hic dicta repudiandae, in commodi aliquid doloribus doloremque assumenda consequuntur maiores? Sit pariatur nesciunt ipsum illo soluta accusamus eos, eum architecto? Natus tenetur nam beatae recusandae dolor!',
                     'sale' => 1,
                     'new' => 1,
-                    'url_gambar' => '6.jpg',
+                    'url_gambar' => 'e6.jpg',
                     'ditambahkan_pada' => Carbon::now()->toDateTimeString()
                 ]
             ]
