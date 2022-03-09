@@ -4,156 +4,46 @@
 <div class="main">
     <div class="shop_top">
       <div class="container">
-          <div class="row shop_box-top">
-              <div class="col-md-3 shop_box"><a href="{{ route('single') }}">
-                  <img src="{{ asset('assets/images/pic5.jpg') }}" class="img-responsive" alt=""/>
-                  <span class="new-box">
-                      <span class="new-label">New</span>
-                  </span>
-                  <span class="sale-box">
-                      <span class="sale-label">Sale!</span>
-                  </span>
-                  <div class="shop_desc">
-                      <h3><a href="#">aliquam volutp</a></h3>
-                      <p>Lorem ipsum consectetuer adipiscing </p>
-                      <span class="reducedfrom">$66.00</span>
-                      <span class="actual">$12.00</span><br>
-                      <ul class="buttons">
-                          <li class="cart"><a href="#">Add To Cart</a></li>
-                          <li class="shop_btn"><a href="#">Read More</a></li>
-                          <div class="clear"> </div>
-                      </ul>
-                  </div>
-              </a></div>
-              <div class="col-md-3 shop_box"><a href="{{ route('single') }}">
-                  <img src="{{ asset('assets/images/pic6.jpg') }}" class="img-responsive" alt=""/>
-                  <span class="new-box">
-                      <span class="new-label">New</span>
-                  </span>
-                  <div class="shop_desc">
-                      <h3><a href="#">aliquam volutp</a></h3>
-                      <p>Lorem ipsum consectetuer adipiscing </p>
-                      <span class="actual">$12.00</span><br>
-                      <ul class="buttons">
-                          <li class="cart"><a href="#">Add To Cart</a></li>
-                          <li class="shop_btn"><a href="#">Read More</a></li>
-                          <div class="clear"> </div>
-                      </ul>
-                  </div>
-              </a></div>
-              <div class="col-md-3 shop_box"><a href="{{ route('single') }}">
-                  <img src="{{ asset('assets/images/pic7.jpg') }}" class="img-responsive" alt=""/>
-                  <span class="new-box">
-                      <span class="new-label">New</span>
-                  </span>
-                  <span class="sale-box">
-                      <span class="sale-label">Sale!</span>
-                  </span>
-                  <div class="shop_desc">
-                      <h3><a href="#">aliquam volutp</a></h3>
-                      <p>Lorem ipsum consectetuer adipiscing </p>
-                      <span class="reducedfrom">$66.00</span>
-                      <span class="actual">$12.00</span><br>
-                      <ul class="buttons">
-                          <li class="cart"><a href="#">Add To Cart</a></li>
-                          <li class="shop_btn"><a href="#">Read More</a></li>
-                          <div class="clear"> </div>
-                      </ul>
-                  </div>
-              </a></div>
-              <div class="col-md-3 shop_box"><a href="{{ route('single') }}">
-                  <img src="{{ asset('assets/images/pic8.jpg') }}" class="img-responsive" alt=""/>
-                  <span class="new-box">
-                      <span class="new-label">New</span>
-                  </span>
-                  <div class="shop_desc">
-                      <h3><a href="#">aliquam volutp</a></h3>
-                      <p>Lorem ipsum consectetuer adipiscing </p>
-                      <span class="reducedfrom">$66.00</span>
-                      <span class="actual">$12.00</span><br>
-                      <ul class="buttons">
-                          <li class="cart"><a href="#">Add To Cart</a></li>
-                          <li class="shop_btn"><a href="#">Read More</a></li>
-                          <div class="clear"> </div>
-                      </ul>
-                  </div>
-              </a></div>
-          </div>
-          <div class="row">
-              <div class="col-md-3 shop_box"><a href="{{ route('single') }}">
-                  <img src="{{ asset('assets/images/pic9.jpg') }}" class="img-responsive" alt=""/>
-                  <span class="new-box">
-                      <span class="new-label">New</span>
-                  </span>
-                  <div class="shop_desc">
-                      <h3><a href="#">aliquam volutp</a></h3>
-                      <p>Lorem ipsum consectetuer adipiscing </p>
-                      <span class="actual">$12.00</span><br>
-                      <ul class="buttons">
-                          <li class="cart"><a href="#">Add To Cart</a></li>
-                          <li class="shop_btn"><a href="#">Read More</a></li>
-                          <div class="clear"> </div>
-                      </ul>
-                  </div>
-              </a></div>
-              <div class="col-md-3 shop_box"><a href="{{ route('single') }}">
-                  <img src="{{ asset('assets/images/pic10.jpg') }}" class="img-responsive" alt=""/>
-                  <span class="new-box">
-                      <span class="new-label">New</span>
-                  </span>
-                  <span class="sale-box">
-                      <span class="sale-label">Sale!</span>
-                  </span>
-                  <div class="shop_desc">
-                      <h3><a href="#">aliquam volutp</a></h3>
-                      <p>Lorem ipsum consectetuer adipiscing </p>
-                      <span class="actual">$12.00</span><br>
-                      <ul class="buttons">
-                          <li class="cart"><a href="#">Add To Cart</a></li>
-                          <li class="shop_btn"><a href="#">Read More</a></li>
-                          <div class="clear"> </div>
-                      </ul>
-                  </div>
-              </a></div>
-              <div class="col-md-3 shop_box"><a href="{{ route('single') }}">
-                  <img src="{{ asset('assets/images/pic11.jpg') }}" class="img-responsive" alt=""/>
-                  <span class="new-box">
-                      <span class="new-label">New</span>
-                  </span>
-                  <div class="shop_desc">
-                      <h3><a href="#">aliquam volutp</a></h3>
-                      <p>Lorem ipsum consectetuer adipiscing </p>
-                      <span class="reducedfrom">$66.00</span>
-                      <span class="actual">$12.00</span><br>
-                      <ul class="buttons">
-                          <li class="cart"><a href="#">Add To Cart</a></li>
-                          <li class="shop_btn"><a href="#">Read More</a></li>
-                          <div class="clear"> </div>
-                      </ul>
-                  </div>
-              </a></div>
-              <div class="col-md-3 shop_box"><a href="{{ route('single') }}">
-                  <img src="{{ asset('assets/images/pic12.jpg') }}" class="img-responsive" alt=""/>
-                  <span class="new-box">
-                      <span class="new-label">New</span>
-                  </span>
-                  <span class="sale-box">
-                      <span class="sale-label">Sale!</span>
-                  </span>
-                  <div class="shop_desc">
-                      <h3><a href="#">aliquam volutp</a></h3>
-                      <p>Lorem ipsum consectetuer adipiscing </p>
-                      <span class="reducedfrom">$66.00</span>
-                      <span class="actual">$12.00</span><br>
-                      <ul class="buttons">
-                          <li class="cart"><a href="#">Add To Cart</a></li>
-                          <li class="shop_btn"><a href="#">Read More</a></li>
-                          <div class="clear"> </div>
-                      </ul>
-                  </div>
-              </a></div>
-          </div>
-       </div>
-     </div>
+        <?php $counter = 1;?>
+        @foreach ($data as $item)
+            @if ($counter % 4 == 0)
+                <div class="row mb-4">
+            @endif
+
+            @component('components.shop-box', ['item' => $item])
+                @slot('new')
+                    @if ($item->new > 0)
+                        <span class="new-label">New</span>
+                    @endif
+                @endslot
+
+                @slot('sale')
+                    @if ($item->sale > 0)
+                        <span class="sale-label">Sale!</span>
+                    @endif
+                @endslot
+
+                @slot('prices')
+                    @if ($item->diskon > 0)
+                        <span class="reducedfrom">Rp. {{ $item->harga }}</span>
+                        <span class="actual">Rp. {{ ($item->harga -= ($item->harga * $item->diskon)) }}</span><br>
+                    @else 
+                        <span class="actual">Rp. {{ $item->harga }}</span><br>
+                    @endif
+                @endslot
+            @endcomponent
+            
+            @if ($counter % 4 == 0)
+                </div>
+            @endif
+
+            <?php $counter++; ?>
+        @endforeach     
+        
+        <div class="row">
+            {{ $data->links() }}
+        </div>
+      </div>
     </div>
+</div>
 @endsection
