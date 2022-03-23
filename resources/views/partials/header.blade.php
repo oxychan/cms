@@ -22,43 +22,59 @@
                 <div class="clear"></div>
             </div>
             <div class="header_right">
-              <!-- start search-->
-                  {{-- <div class="search-box">
-                        <div id="sb-search" class="sb-search">
-                            <form>
-                                <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
-                                <input class="sb-search-submit" type="submit" value="">
-                                <span class="sb-icon-search"> </span>
+                @guest
+                    @if (Route::has('login'))
+                        <div class="login_button"><a href="{{ route('login') }}">Login</a></div>
+                    @endif
+
+                    @else
+                    {{-- <ul style="display: inline-block; color:white; text-decoration: none; list-style: none;"> --}}
+                        <li>
+                            <div class="login_button">
+                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
+                                            document.getElementById('logout-form').submit();" style="text-decoration: none; color:#000;">
+                                    {{ __('Logout') }}
+                                </a>
+                            </div>                              
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
                             </form>
-                        </div>
-                    </div> --}}
-                    <div class="login_button"><a href="{{ route('login') }}">Login</a></div>
-                    <!----search-scripts---->
-                    {{-- <script src="{{ asset('assets/js/classie.js') }}"></script>
-                    <script src="{{ asset('assets/js/uisearch.js') }}"></script>
-                    <script>
-                        new UISearch( document.getElementById( 'sb-search' ) );
-                    </script> --}}
+                        </li>
+                        <li>
+                            <span style="font-weight: bolder !important;">|</span>
+                        </li>
+                        <li>
+                            <a id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="text-decoration: none; color:white;">
+                                <b>{{ Auth::user()->name }}</b>
+                            </a>                                                     
+                        </li>                       
+                        
+                    {{-- </ul>                                --}}
+                @endguest
+
                     <!----//search-scripts---->
-                <ul class="icon1 sub-icon1 profile_img">
-                 <li><a class="active-icon c1" href="#"> </a>
-                    <ul class="sub-icon1 list">
-                      <div class="product_control_buttons">
-                          <a href="#"><img src="{{ asset('assets/images/edit.png') }}" alt=""/></a>
-                              <a href="#"><img src="{{ asset('assets/images/close_edit.png') }}" alt=""/></a>
-                      </div>
-                       <div class="clear"></div>
-                      <li class="list_img"><img src="{{ asset('assets/images/1.jpg') }}" alt=""/></li>
-                      <li class="list_desc"><h4><a href="#">velit esse molestie</a></h4><span class="actual">1 x
-                      $12.00</span></li>
-                      <div class="login_buttons">
-                         <div class="check_button"><a href="{{ route('checkout') }}">Check out</a></div>
-                         <div class="clear"></div>
-                      </div>
-                      <div class="clear"></div>
+                    <ul class="icon1 sub-icon1 profile_img">
+                        <li><a class="active-icon c1" href="#"> </a>
+                           <ul class="sub-icon1 list">
+                             <div class="product_control_buttons">
+                                 <a href="#"><img src="{{ asset('assets/images/edit.png') }}" alt=""/></a>
+                                     <a href="#"><img src="{{ asset('assets/images/close_edit.png') }}" alt=""/></a>
+                             </div>
+                              <div class="clear"></div>
+                             <li class="list_img"><img src="{{ asset('assets/images/1.jpg') }}" alt=""/></li>
+                             <li class="list_desc"><h4><a href="#">velit esse molestie</a></h4><span class="actual">1 x
+                             $12.00</span></li>
+                             <div class="login_buttons">
+                                <div class="check_button"><a href="{{ route('checkout') }}">Check out</a></div>
+                                <div class="clear"></div>
+                             </div>
+                             <div class="clear"></div>
+                           </ul>
+                        </li>
                     </ul>
-                 </li>
-               </ul>
+                
                <div class="clear"></div>
            </div>
       </div>

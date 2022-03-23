@@ -19,24 +19,36 @@
                <div class="login-title">
                      <h4 class="title">Registered Customers</h4>
                   <div id="loginbox" class="loginbox">
-                      <form action="" method="post" name="login" id="login-form">
+                      <form action="{{ route('login') }}" method="post" name="login" id="login-form">
+                        @csrf
+
                         <fieldset class="input">
                           <p id="login-form-username">
-                            <label for="modlgn_username">Email</label>
-                            <input id="modlgn_username" type="text" name="email" class="inputbox" size="18" autocomplete="off">
+                            <label for="modlgn_username">{{ __('Email') }}</label>
+                            <input id="modlgn_username" type="text" name="email" class="inputbox @error('email') is-invalid @enderror" size="18" value="{{ old('email') }}" autocomplete="email" required>
+                            @error('email')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                            @enderror
                           </p>
                           <p id="login-form-password">
-                            <label for="modlgn_passwd">Password</label>
-                            <input id="modlgn_passwd" type="password" name="password" class="inputbox" size="18" autocomplete="off">
+                            <label for="modlgn_passwd">{{ __('Password') }}</label>
+                            <input id="modlgn_passwd" type="password" name="password" class="inputbox @error('password') is-invalid @enderror" size="18" autocomplete="current-password" required>
+                            @error('password')
+                              <span class="invalid-feedback" role="alert">
+                                  <strong>{{ $message }}</strong>
+                              </span>
+                            @enderror
                           </p>
                           <div class="remember">
                               <p id="login-form-remember">
-                                <label for="modlgn_remember"><a href="#">Forget Your Password ? </a></label>
+                                <label for="modlgn_remember"><a href="#">{{ __('Forget Your Password ?') }}</a></label>
                              </p>
-                              <input type="submit" name="Submit" class="button" value="Login"><div class="clear"></div>
+                              <input type="submit" name="Submit" class="button" value="{{ __('Login') }}"><div class="clear"></div>
                            </div>
                         </fieldset>
-                       </form>
+                      </form>
                   </div>
                 </div>
                <div class="clear"></div>

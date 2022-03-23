@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>{{ $title }}</title>
+    <title>{{ $title }} | Opik Shop</title>
     <link href="{{ asset('assets/css/bootstrap.css') }}" rel='stylesheet' type='text/css' />
     <link href="{{ asset('assets/css/style.css') }}" rel='stylesheet' type='text/css' />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -117,10 +117,10 @@
 <body>
     @include('partials.header')
 
-    <div>
+    <div>            
         @yield('container')
     </div>
-
+    
     @include('partials.footer')
 </body>
 </html>
