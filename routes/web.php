@@ -9,7 +9,7 @@ use App\Http\Controllers\ShopController;
 use App\Http\Controllers\TeamController;
 use App\Http\Controllers\AboutController;
 // use App\Http\Controllers\PageController;
-use App\Http\Controllers\LoginController;
+// use App\Http\Controllers\LoginController;
 use App\Http\Controllers\EventsController;
 use App\Http\Controllers\SingleController;
 use App\Http\Controllers\ArticleController;
@@ -20,6 +20,7 @@ use App\Http\Controllers\ProgramController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\ExperienceController;
+use App\Http\Controllers\Auth\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -102,7 +103,6 @@ Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
 Route::get('/single', [SingleController::class, 'index'])->name('single');
 
 Route::get('/single/{slug}', [SingleController::class, 'slug'])->name('single.slug');
-
 
 Auth::routes();
 
