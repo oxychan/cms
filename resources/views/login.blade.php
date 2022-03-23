@@ -24,9 +24,9 @@
 
                         <fieldset class="input">
                           <p id="login-form-username">
-                            <label for="modlgn_username">{{ __('Email') }}</label>
-                            <input id="modlgn_username" type="text" name="email" class="inputbox @error('email') is-invalid @enderror" size="18" value="{{ old('email') }}" autocomplete="email" required>
-                            @error('email')
+                            <label for="modlgn_username">{{ __('Username') }}</label>
+                            <input id="modlgn_username" type="text" name="username" class="inputbox @error('username') is-invalid @enderror" size="18" value="{{ old('username') }}" autocomplete="username" required>
+                            @error('username')
                               <span class="invalid-feedback" role="alert">
                                   <strong>{{ $message }}</strong>
                               </span>
