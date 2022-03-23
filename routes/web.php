@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\NewsController;
@@ -7,18 +8,18 @@ use App\Http\Controllers\PageController;
 use App\Http\Controllers\ShopController;
 use App\Http\Controllers\TeamController;
 use App\Http\Controllers\AboutController;
-use App\Http\Controllers\LoginController;
 // use App\Http\Controllers\PageController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\EventsController;
+use App\Http\Controllers\SingleController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProgramController;
-use App\Http\Controllers\ExperienceController;
+use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\RegisterController;
-use App\Http\Controllers\SingleController;
+use App\Http\Controllers\ExperienceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -102,3 +103,7 @@ Route::get('/single', [SingleController::class, 'index'])->name('single');
 
 Route::get('/single/{slug}', [SingleController::class, 'slug'])->name('single.slug');
 
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
