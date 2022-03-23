@@ -23,7 +23,7 @@
             </div>
             <div class="header_right">
               <!-- start search-->
-                  <div class="search-box">
+                  {{-- <div class="search-box">
                         <div id="sb-search" class="sb-search">
                             <form>
                                 <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
@@ -31,13 +31,14 @@
                                 <span class="sb-icon-search"> </span>
                             </form>
                         </div>
-                    </div>
+                    </div> --}}
+                    <div class="login_button"><a href="{{ route('login') }}">Login</a></div>
                     <!----search-scripts---->
-                    <script src="{{ asset('assets/js/classie.js') }}"></script>
+                    {{-- <script src="{{ asset('assets/js/classie.js') }}"></script>
                     <script src="{{ asset('assets/js/uisearch.js') }}"></script>
                     <script>
                         new UISearch( document.getElementById( 'sb-search' ) );
-                    </script>
+                    </script> --}}
                     <!----//search-scripts---->
                 <ul class="icon1 sub-icon1 profile_img">
                  <li><a class="active-icon c1" href="#"> </a>
@@ -52,7 +53,6 @@
                       $12.00</span></li>
                       <div class="login_buttons">
                          <div class="check_button"><a href="{{ route('checkout') }}">Check out</a></div>
-                         <div class="login_button"><a href="{{ route('login') }}">Login</a></div>
                          <div class="clear"></div>
                       </div>
                       <div class="clear"></div>
